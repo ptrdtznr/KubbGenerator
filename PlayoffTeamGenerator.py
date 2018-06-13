@@ -1,3 +1,11 @@
+'''
+    File name: PlayoffTeamGenerator.py.py
+    Author: Peter
+    Date created: 13.06.2018
+    Date last modified: 13.06.2018
+    Python Version: 2.7
+'''
+
 import random
 import datetime
 
@@ -24,7 +32,7 @@ def getRandomValue(number_of_players_left):
     return (randint(0,number_of_players_left-1))
 
 
-class player(object):
+class kubbPlayer(object):
     def __init__(self, name):
         self.name = name
     
@@ -50,9 +58,9 @@ class kubbTeam(object):
         retVal =  "Teamname: " + self.name + ", "
         
         if (len(self.players)):
-            retVal = retVal + "Players: " + str(self.players)
+            retVal = retVal + "Members: " + str(self.players)
         else:
-            retVal = retVal + "Players: -"
+            retVal = retVal + "Members: -"
         return retVal
      
             
@@ -92,7 +100,7 @@ def createPlayoffPicture():
     number_of_players = len(playerList)
     for x in range(0, number_of_players):
         pos = getRandomValue(len(playerList)) 
-        player = playerList[pos]
+        player =  kubbPlayer(playerList[pos])
 
         for team in teamList:
             if (team.addPlayer(player)):
