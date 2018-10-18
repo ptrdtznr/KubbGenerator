@@ -1,8 +1,13 @@
 
 # KubbGenerator
 
-# Was ist Kubb?
+## Was ist Kubb?
 "Kubb ist ein Geschicklichkeitsspiel, das meistens draußen gespielt wird. Es symbolisiert eine Schlacht, in der zwei verfeindete Gruppen für ihren König kämpfen. In der heutigen Form wird es seit circa 1990 gespielt und ist vor allem in Schweden und Norwegen beliebt, doch auch im deutschsprachigen Raum nicht mehr selten. Teilweise wird es dort unter dem Titel „Hägars Wikingerschach“, „Wikingerspiel“, „Bauernkegeln“, „Stöckchenspiel“, „Schwedenschach“ oder „Wikingerkegeln“ vermarktet oder gespielt." [Quelle](https://de.wikipedia.org/wiki/Kubb "Wikipedia Kubb")
+
+
+## Was macht der _KubbGenerator_?
+Dieser (Kubb-) Generator erstellt, in Abhaengigkeit von der Anzahl der Spieler sowie der Anzahl der benoetigten Spieler/Team, eine Liste von zufaellig ausgewaehlten Teams. Existieren nicht genuegend Spieler, so wird die Liste mit "-"-Spielern aufgefuellt. Nachdem ein Spieler aus der Liste zufaellig gewaehlt wurde, wird die Spielerliste neu gemischt.
+Nach Erstellung der Teams werden auch die ersten Spielbegegnungen zufaellig ausgewaehlt.
 
 ## Simple Kubb Playoff Generator
 
@@ -24,8 +29,5 @@ Ausfuehrung:
   python PlayoffTeamGenerator.py
 ```    
 v 0.1
-Dieser (Kubb-) Generator erstellt, abhaengig von der Anzahl der Spieler und der Anzahl der benoetigten Spieler je Team, zufaellig ausgewaehlte Teams. Existieren nicht genuegend Spieler, so wird die Liste mit "-"-Spielern aufgefuellt. Nachdem ein Spieler aus der Liste zufaellig gewaehlt wurde, wird die Spielerliste neu gemischt.
-Nach Erstellung der Teams werden auch die ersten Spielbegegnungen zufaellig ausgewaehlt.
-
-Fehler: sicherlich einige
+Fehler: sicherlich einige ;)
 
