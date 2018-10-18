@@ -20,7 +20,7 @@ Wenn mehr Teams geweunscht oder mehr Spieler je Team, einfach die beiden Listen 
 Die Spielernamen bzw. die Teamnamen koennen hier angepasst werden:
 
 ```python
-  playerList 
+  (https://github.com/ptrdtznr/KubbGenerator/blob/master/PlayoffTeamGenerator.py#L23 "PlayerList)
   teamNames 
 ```  
 Ausfuehrung:
