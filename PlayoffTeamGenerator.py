@@ -1,5 +1,5 @@
 '''
-    File name: PlayoffTeamGenerator.py.py
+    File name: PlayoffTeamGenerator.py
     Author: Peter
     Date created: 13.06.2018
     Date last modified: 13.06.2018
