@@ -1,6 +1,10 @@
+
 # KubbGenerator
 
-Simple Kubb Playoff Generator
+# Was ist Kubb?
+"Kubb ist ein Geschicklichkeitsspiel, das meistens draußen gespielt wird. Es symbolisiert eine Schlacht, in der zwei verfeindete Gruppen für ihren König kämpfen. In der heutigen Form wird es seit circa 1990 gespielt und ist vor allem in Schweden und Norwegen beliebt, doch auch im deutschsprachigen Raum nicht mehr selten. Teilweise wird es dort unter dem Titel „Hägars Wikingerschach“, „Wikingerspiel“, „Bauernkegeln“, „Stöckchenspiel“, „Schwedenschach“ oder „Wikingerkegeln“ vermarktet oder gespielt." [Quelle](https://de.wikipedia.org/wiki/Kubb "Wikipedia Kubb")
+
+## Simple Kubb Playoff Generator
 
 Wenn mehr Teams geweunscht oder mehr Spieler je Team, einfach die beiden Listen anpassen:
 
